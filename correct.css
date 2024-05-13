@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--white);
+    height: 300vh;
+}
+.meet{
+    padding-top: 80px;
+    padding-left: 661px;
+}
+.pixCon{
+    margin-top: 50px;
+    height: 358px;
+}
+.pixgen{
+   display: flex;
+   gap: 10px;
+}
+.pixCon1{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 100%;
+    gap: 10px;
+    justify-content: center;
+}
+.pixCon2{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 100%;
+    gap: 10px;
+    justify-content: start;
+}
+.pixCon3{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 100%;
+    gap: 10px;
+    justify-content: end;
+}
+.gropChatcon{
+    text-align: center;
+    padding-top: 136px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+.gropChatconPArentMobile{
+    display: none;
+}
